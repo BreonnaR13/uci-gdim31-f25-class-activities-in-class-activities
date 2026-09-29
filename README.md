@@ -1,7 +1,8 @@
 # in-class-activities
-## Devlogs
-### W1
-Write your W1 activity Devlog here.
+## W1
+### Activity 1
+We learned how to use Unity as well as how to save the assets to Github. We also learned to upload 
+our games onto itch.io.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
