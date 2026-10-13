@@ -41,7 +41,10 @@ Activity 1: TABLE NUMBER 6
 
 Activity 2:
 
-Classes are like the ingredients of baking a cake and the baking the cake would be the attribute.
+Classes are the recipe to making a cake.
+Methods are used to make the cake like the pan.
+
+
 
 Activity 3:
 
