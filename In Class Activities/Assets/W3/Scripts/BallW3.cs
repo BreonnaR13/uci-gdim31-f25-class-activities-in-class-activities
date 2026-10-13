@@ -5,7 +5,7 @@ public class BallW3 : MonoBehaviour
 {
     public SpriteRenderer ballRenderer;
     [SerializeField] private Rigidbody2D _rigidbody;
-    [SerializeField] private float _speedMultiplier = 1.0f;
+    [SerializeField] private float _speedMultiplier = 1.2f;
     [SerializeField] private float _speedThreshold = 10.0f;
 
     // ------------------------------------------------------------------------
@@ -24,7 +24,7 @@ public class BallW3 : MonoBehaviour
         //      of _speedMultiplier. TUNE that value in the Inspector and see
         //      what happens!
 
-        //rigidbody.linearvelocity *= speedmultiplier;
+        _rigidbody.linearVelocity *= _speedMultiplier;
 
         // STEP 1 -------------------------------------------------------------
 
