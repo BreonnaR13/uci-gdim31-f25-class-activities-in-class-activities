@@ -20,6 +20,25 @@ The error message I got after step 4 is "; expected", to help the programmer rea
 
 ### W3
 
+Activity 1:
+1. RETURN: string, PARAMETERS: friendship level which could be a float and a flag that would be a boolean
+
+    public string GetResponse (float friendshipLevel, bool knowsSecret){
+        
+    }
+
+2. RETURN: No return (void), PARAMETERS: Sanity level which could be float
+
+    public void name SetLightDimness (float sanityLevel){
+
+    }
+
+3. RETURN: Boolean, PARAMETERS: time which could be float
+
+    public bool DidPlayerHitBeat (float timeHit){
+
+    }
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
