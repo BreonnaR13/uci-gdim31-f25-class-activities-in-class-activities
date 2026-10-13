@@ -1,12 +1,12 @@
 using TMPro;
 using UnityEngine;
 
-public class BallW3
+public class BallW3 : MonoBehaviour
 {
     public SpriteRenderer ballRenderer;
-    private Rigidbody2D _rigidbody;
-    private float _speedMultiplier = 1.0f;
-    private float _speedThreshold = 10.0f;
+    [SerializeField] private Rigidbody2D _rigidbody;
+    [SerializeField] private float _speedMultiplier = 1.0f;
+    [SerializeField] private float _speedThreshold = 10.0f;
 
     // ------------------------------------------------------------------------
     // This method is called by Unity whenever the ball hits something.
