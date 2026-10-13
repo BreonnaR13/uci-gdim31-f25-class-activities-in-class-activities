@@ -20,7 +20,7 @@ The error message I got after step 4 is "; expected", to help the programmer rea
 
 ### W3
 
-Activity 1:
+Activity 1: TABLE NUMBER 6
 1. RETURN: string, PARAMETERS: friendship level which could be a float and a flag that would be a boolean
 
     public string GetResponse (float friendshipLevel, bool knowsSecret){
@@ -38,6 +38,14 @@ Activity 1:
     public bool DidPlayerHitBeat (float timeHit){
 
     }
+
+Activity 2:
+
+Classes are like the ingredients of baking a cake and the baking the cake would be the attribute.
+
+Activity 3:
+
+
 
 ## Open-Source Assets
 ### W1
