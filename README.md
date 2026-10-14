@@ -41,12 +41,13 @@ Activity 1: TABLE NUMBER 6
 
 Activity 2:
 
-Classes are the recipe to making a cake.
-Methods are used to make the cake like the pan.
+Classes are the recipe to making a cake which could be the component. Member variables are the ingredients themselves. And methods are what the cake can do (be sliced, eaten).
 
 
 
 Activity 3:
+
+I think the reason the ball is getting extremely bright is because we are multiplying the ball's color value by another value. This is causing an increase in the color value which is making it brighter. The value is increasing because in the GetColorMultiplier method, the return value is 1.5 if the average speed is greater than the threshold.
 
 
 
