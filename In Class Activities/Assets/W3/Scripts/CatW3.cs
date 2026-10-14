@@ -73,6 +73,7 @@ public class CatW3 : MonoBehaviour
         {
             _points++;
             _pointsText.text = "points: " + _points;
+            Debug.Log(_points);
             Destroy(other.gameObject);
         }
     }
@@ -139,6 +140,7 @@ public class CatW3 : MonoBehaviour
 
         _health--;
         _healthText.text = "health = " + _health;
+
 
 
         // STEP 5 -------------------------------------------------------------

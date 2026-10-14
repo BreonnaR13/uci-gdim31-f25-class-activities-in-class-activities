@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 677104939}
   _rigidbody: {fileID: 677104938}
-  _speedMultiplier: 1
+  _speedMultiplier: 3.2
   _speedThreshold: 10
 --- !u!58 &677104937
 CircleCollider2D:
@@ -1533,7 +1533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1304068232}
   _rigidbody: {fileID: 1304068231}
-  _speedMultiplier: 1
+  _speedMultiplier: 3.2
   _speedThreshold: 10
 --- !u!1 &1515363346
 GameObject:
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   _pointsText: {fileID: 980115520}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
-  _destroyCatWhenDead: 0
+  _destroyCatWhenDead: 1
 --- !u!1 &1756818710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,7 +2548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1774701410}
   _rigidbody: {fileID: 1774701409}
-  _speedMultiplier: 1
+  _speedMultiplier: 3.2
   _speedThreshold: 10
 --- !u!58 &1774701408
 CircleCollider2D:
