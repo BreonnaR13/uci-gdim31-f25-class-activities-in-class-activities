@@ -5970,7 +5970,6 @@ GameObject:
   - component: {fileID: 3588354822138079051}
   - component: {fileID: 1596687674897945473}
   - component: {fileID: 3588354822138079052}
-  - component: {fileID: 3588354822138079053}
   m_Layer: 0
   m_Name: Goal
   m_TagString: Goal
@@ -6456,33 +6455,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.9356925, y: 0.4977156, z: 0.5541493}
   m_Center: {x: 0.021027492, y: -0.120149374, z: -0.12214554}
---- !u!54 &3588354822138079053
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948129265799852628}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 14
-  m_CollisionDetection: 0
 --- !u!4 &3596962750530470011
 Transform:
   m_ObjectHideFlags: 0
@@ -7110,7 +7082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d99774276e3f43b192a53df5fde03de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BounceOffWall
-  _rigidBody: {fileID: 0}
+  _rigidBody: {fileID: 6397291155275392800}
   _bounceForce: 6
 --- !u!1 &6499904795538962815
 GameObject:
@@ -7528,7 +7500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d99774276e3f43b192a53df5fde03de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BounceOffWall
-  _rigidBody: {fileID: 0}
+  _rigidBody: {fileID: 8101201615804560250}
   _bounceForce: 6
 --- !u!4 &8115783459852817865
 Transform:
