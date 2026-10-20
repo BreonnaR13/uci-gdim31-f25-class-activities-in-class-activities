@@ -49,7 +49,13 @@ Activity 3:
 
 I think the reason the ball is getting extremely bright is because we are multiplying the ball's color value by another value. This is causing an increase in the color value which is making it brighter. The value is increasing because in the GetColorMultiplier method, the return value is 1.5 if the average speed is greater than the threshold.
 
+### W4
 
+TABLE 6
+
+1. We agreed that we should use the ridigbody for the ball and the cat because those were the two things that needed physics like elements to them unlike the goal which just needed to stand still. We checked the trigger on the goal which ensured that the ball could pass through it rather than be blocked by it.
+
+2. I tested my game in between steps so at the end it did work! However, I did run into some issues while doing the steps. For step 4, I accidentally did the _goalVFX.Play() outside of the MadeGoal() method which caused an error. When I tried putting it inside the method instead it started to work!
 
 ## Open-Source Assets
 ### W1
