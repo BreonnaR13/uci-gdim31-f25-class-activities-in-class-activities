@@ -1998,7 +1998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17c3416f57a6407594216d570227c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CatW5
-  _flipWSControls: 0
+  _flipWSControls: 1
   _moveSpeed: 2.5
   _turnSpeed: 100
   _animator: {fileID: 1977093712}
@@ -3650,7 +3650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec4dc8e091c94263b31ed5edd963f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeerW5
-  t: {fileID: 1977093713}
+  t: {fileID: 3120733737200041362}
 --- !u!1 &8984736127648626612
 GameObject:
   m_ObjectHideFlags: 0

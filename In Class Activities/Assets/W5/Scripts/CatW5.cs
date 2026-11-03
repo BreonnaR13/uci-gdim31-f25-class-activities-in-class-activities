@@ -9,6 +9,7 @@ public class CatW5 : MonoBehaviour
 
     private string _isWalkingName = "IsWalking";
 
+
     private void Update()
     {
         // STEP 1 & 2 ---------------------------------------------------------
@@ -31,6 +32,26 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
+
+        Vector3 movement = Vector3.zero;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            movement.z = 1;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            movement.z = -1;
+        }
+
+        if (_flipWSControls)
+        {
+            movement *= -1;
+        }
+
+        transform.Translate(movement * _moveSpeed * Time.deltaTime);
+
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
