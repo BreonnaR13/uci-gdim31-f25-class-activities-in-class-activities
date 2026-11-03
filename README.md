@@ -57,6 +57,13 @@ TABLE 6
 
 2. I tested my game in between steps so at the end it did work! However, I did run into some issues while doing the steps. For step 4, I accidentally did the _goalVFX.Play() outside of the MadeGoal() method which caused an error. When I tried putting it inside the method instead it started to work!
 
+
+### W5 (week 6)
+
+Plan for creating a class
+
+The member variables we need are move speed and the cat’s position. Some methods we need are Start() and Update(). These methods should be able to set the deer’s position at the beginning. We also need to get the position of the cat. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
