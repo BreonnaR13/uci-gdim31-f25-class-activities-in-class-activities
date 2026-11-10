@@ -64,6 +64,17 @@ Plan for creating a class
 
 The member variables we need are move speed and the cat’s position. Some methods we need are Start() and Update(). These methods should be able to set the deer’s position at the beginning. We also need to get the position of the cat. 
 
+### W7
+
+Resources Doc! --> https://docs.google.com/document/d/1kR28s3UFUojYeTBAymLJ1hQA6LlfCwT3vaz3uHdMohE/edit?tab=t.0 
+
+Plan
+Member variable speed that should should be serialized field
+Method to make the bat stop following the player. Probably need to disable a component. 
+Method to make bat start again. Probably need to enable a component.
+Need to get transform of cat to make bats move to it.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
