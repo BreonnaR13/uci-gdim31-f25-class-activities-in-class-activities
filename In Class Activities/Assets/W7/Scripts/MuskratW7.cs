@@ -46,13 +46,19 @@ public class MuskratW7 : MonoBehaviour
         // You might want to look below Step 3 for an example :D
         
         float leftright = Input.GetAxis("Horizontal");
+
+        Vector3 axis = transform.TransformDirection(Vector3.right);
+
+        transform.RotateAround(
+            _sphereTransform.position,
+            axis,
+            leftright * _rotationSpeed * Time.deltaTime
+        );
         
-
-
         // STEP 3 -------------------------------------------------------------
 
         float forward = Input.GetAxis("Vertical");
-        Vector3 axis = transform.TransformDirection(Vector3.right);
+        //Vector3 axis = transform.TransformDirection(Vector3.right);
         transform.RotateAround(
             _sphereTransform.position,
             axis,
@@ -78,6 +84,7 @@ public class MuskratW7 : MonoBehaviour
         //
         // Use the input stored in leftright to rotate the Muskrat at
         //      _rotationSpeed speed.
+        
 
         float leftright = Input.GetAxis("Horizontal") * _rotationSpeed * Time.deltaTime;
 
@@ -103,8 +110,9 @@ public class MuskratW7 : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
+
+        //changed from position to translate
         transform.Translate(movement * Vector3.forward * _moveSpeed * Time.deltaTime);
-        //position instead of transalte originally and that was wrong because that was moving the global position rather than the local position
 
 
         // STEP 2 -------------------------------------------------------------
@@ -117,7 +125,14 @@ public class MuskratW7 : MonoBehaviour
         // You may also find the absolute value method, Mathf.Abs(), helpful:
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html
 
-        
+        Debug.Log(_rigidbody.linearVelocity.y);
+        Debug.Log(_rigidbody.linearVelocity.x);
+        Debug.Log(_rigidbody.linearVelocity.y);
+
+        if (_rigidbody.linearVelocity.y < 0)
+        {
+            _animator.SetBool("flying", true);
+        }
         // STEP 4 -------------------------------------------------------------
     }
 
