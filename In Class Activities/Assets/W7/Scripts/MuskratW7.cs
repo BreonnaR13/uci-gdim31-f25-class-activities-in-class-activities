@@ -78,6 +78,14 @@ public class MuskratW7 : MonoBehaviour
         //
         // Use the input stored in leftright to rotate the Muskrat at
         //      _rotationSpeed speed.
+
+        float leftright = Input.GetAxis("Horizontal") * _rotationSpeed * Time.deltaTime;
+
+        Transform musTransform = gameObject.GetComponent<Transform>();
+        musTransform.Rotate(0, leftright, 0);
+
+        //musTransform.Rotate(Vector3.up * leftright * _rotationSpeed * Time.deltaTime);
+
         // Use the Transform.Rotate method: https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.Rotate.html
         // and don't forget about Time.deltaTime :D
         //
@@ -85,7 +93,6 @@ public class MuskratW7 : MonoBehaviour
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
         //      like up, left, right, or forward.
 
-        float leftright = Input.GetAxis("Horizontal");
 
         // STEP 1 -------------------------------------------------------------
 
@@ -96,7 +103,9 @@ public class MuskratW7 : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
-        transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
+        transform.Translate(movement * Vector3.forward * _moveSpeed * Time.deltaTime);
+        //transform.Translate(0, 0, movement * Time.deltaTime);
+
 
         // STEP 2 -------------------------------------------------------------
 
