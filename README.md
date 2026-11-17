@@ -74,6 +74,9 @@ Method to make the bat stop following the player. Probably need to disable a com
 Method to make bat start again. Probably need to enable a component.
 Need to get transform of cat to make bats move to it.
 
+### W8
+
+The issue with the original code for step 2 was that the muskrat was moving using the global position rather than in the local position of the muskrat. I used translate instead of postiton and now it moves through the local position.
 
 ## Open-Source Assets
 ### W1
