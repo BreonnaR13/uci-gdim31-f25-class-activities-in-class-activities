@@ -78,6 +78,10 @@ Need to get transform of cat to make bats move to it.
 
 The issue with the original code for step 2 was that the muskrat was moving using the global position rather than in the local position of the muskrat. I used translate instead of postiton and now it moves through the local position.
 
+### W9
+
+For my final I am doing the 2D option! In class today I was able to make some of the game objects for the items that the player can kick. I also started to add a new tilemap to create the background environment.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
